@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./calc.css" />
+  </head>
+  <div class="calculator-error-modal">
+    Format Error!!<br />
+    Please try again!
+  </div>
+  <div class="calculator-container">
+    <h1 class="calculator-display">0</h1>
+    <div class="calculator-keys">
+      <div class="calculator-block-1">
+        <button class="calculator-key" value="ac">AC</button>
+        <button class="calculator-key" value="7">7</button>
+        <button class="calculator-key" value="4">4</button>
+        <button class="calculator-key" value="1">1</button>
+        <button class="calculator-key" value="0">0</button>
+      </div>
+      <div class="calculator-block-2">
+        <button class="calculator-key" value="(">(</button>
+        <button class="calculator-key" value="8">8</button>
+        <button class="calculator-key" value="5">5</button>
+        <button class="calculator-key" value="2">2</button>
+        <button class="calculator-key" value=".">.</button>
+      </div>
+      <div class="calculator-block-3">
+        <button class="calculator-key" value=")">)</button>
+        <button class="calculator-key" value="9">9</button>
+        <button class="calculator-key" value="6">6</button>
+        <button class="calculator-key" value="3">3</button>
+        <button class="calculator-key" value="+">+</button>
+      </div>
+      <div class="calculator-block-4">
+        <button class="calculator-key" value="backspace">
+          <i data-value="backspace" class="fa-solid fa-delete-left"></i>
+        </button>
+        <button class="calculator-key" value="/">/</button>
+        <button class="calculator-key" value="*">X</button>
+        <button class="calculator-key" value="-">-</button>
+        <button class="calculator-key" value="=">=</button>
+      </div>
+    </div>
+  </div>
+  <body>
+    <script
+      src="https://kit.fontawesome.com/d28f0790a9.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
