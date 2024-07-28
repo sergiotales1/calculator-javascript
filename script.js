@@ -79,6 +79,7 @@ function calculate() {
     display.innerHTML = numbers;
   } catch (error) {
     modal.classList.add("show-modal");
+    modal.innerHTML = "Max digits limit!<br> Please remove some!";
     setTimeout(() => {
       modal.classList.remove("show-modal");
     }, 5000);
